@@ -193,10 +193,15 @@ document.write('Company email: ', company.address.email);*/
      
      const company=["TCS","Patheya","WNS","Tech Mahindra"];
      company.sort();
-     document.write(company);*/
+     document.write(company);
 
      //9.Array reverse
 
      const company=["TCS","Patheya","WNS","Tech Mahindra"];
      company.reverse();
-     document.write(company);
+     document.write(company);*/
+
+     
+
+
+
