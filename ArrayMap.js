@@ -39,7 +39,7 @@
      vehicals.set("Jupiter", 700000);
      vehicals.set("Java42", 2500000);
 
-     document.write(vehicals.has("Pulser"));*/
+     document.write(vehicals.has("Pulser"));
 
 
      //function processArray(...str) {
@@ -50,7 +50,7 @@
     for (let index = 0; index < numbers.length; index++) {
       const element = numbers[index];
       document.write(element);
-    }
+    }*/
   //const names = ["Punam", "Sunil", "Snehal", "Pranav", "Prerana"];
   //names.forEach((name, index) => {
     // console.log("Element - ", name, " Index", index);

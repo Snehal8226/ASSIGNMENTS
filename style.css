@@ -1,8 +1,9 @@
 body {
-    background-color: yellow;
+    background-image: Oxalis-flowers-flowering-plants-in-the-family-tree-sorrel-Oxalidaceae-containing-about-570-species-purple-blur-petals-insect-macro-3840x2400-1920x1200
+    ;
   }
   h1 {
-    color: red;
+    color: green;
     text-align: center;
   }
   p {
@@ -10,9 +11,8 @@ body {
     font-size: 20px;
   }
   p2{
-    color: brown;
+    color: blue;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 100px
   }
   
