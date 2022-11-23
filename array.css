@@ -1,0 +1,12 @@
+body {
+    background-color: orange;
+  }
+  h1 {
+    color: rgb(80, 83, 255);
+    text-align: center;
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
