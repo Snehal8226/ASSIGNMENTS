@@ -13,7 +13,9 @@ var moment = require('moment'); // require
 //import moment from 'moment';
 //console.log(moment().format());
 console.log(moment().millisecond());
+console.log(moment().second()); // Number
 console.log(moment().minute());
+
 console.log(moment().date()); // Number
 //console.log(moment().year(year).month(month).date(day));
 console.log(moment().day()); // Number
