@@ -32,4 +32,24 @@ console.log(moment().weekday());
 //console.log(moment().weekday(0));
 //console.log(moment().weekday(-7)); // last Monday
  //console.log(moment().weekday(7)); // next Monday
- console.log(moment().weekday(-7));
+ //console.log(moment().weekday(-7));
+ //import { upperCase, localeUpperCase } from "upper-case";
+ //npm install upper-case --save
+
+//console.log(upperCase("string")); //=> "STRING"
+//ISO day of week
+console.log(moment().isoWeekday(1)); // Monday
+console.log(moment().isoWeekday(7)); // Sunday
+console.log(moment().dayOfYear());   //Number
+console.log(moment().week()); // Number
+//ISO weekof year
+console.log(moment().isoWeek());
+//Month
+console.log(moment().month()); // Number
+console.log(moment().month("January"));
+//Quarter
+console.log(moment().quarter()); // Number
+console.log(moment().set({'year': 2013, 'month': 3}));
+console.log(moment().set({'year': 2013, 'month': 3, 'dates': 5}));
+console.log(moment().set({'year': 2013, 'months': 5, 'dates': 5}));
+console.log(moment().set({'year': 2022, 'months': 9, 'dates': 5}));
