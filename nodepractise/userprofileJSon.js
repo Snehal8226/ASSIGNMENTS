@@ -1,4 +1,14 @@
-const userprofile = [
+/*var _ = require('lodash');
+
+var str = _.groupBy([6.1, 4.2, 6.3], Math.floor);
+console.log(str);
+
+var camalcase = _.camelCase('Foo Bar');
+console.log(camalcase);*/
+
+
+
+const userprofile =[
      userprofile1 = {
         "name":"John", 
         "age":25, 
@@ -28,6 +38,7 @@ const userprofile = [
 
 ]
 
+
 console.log(JSON.stringify(userprofile));
 //console.log('UserprofileAddress : ', userprofile3.address.mail);
 
@@ -48,7 +59,7 @@ Sortedprofile = userprofile.sort((userprofile1, userprofile2) => {
 
       console.log("Sorted by Age  ",Sortedprofile);
 
-  /*Sortedprofile = userprofile.sort((userprofile1, userprofile2) => {
+   /*Sortedprofile = userprofile.sort((userprofile1, userprofile2) => {
 
     if (userprofile1.name< userprofile2.name) {
   
@@ -84,6 +95,4 @@ Sortedprofile = userprofile.sort((userprofile1, userprofile2) => {
 //Address:["pune","lonawala","kharadi","katraj","hadapasar"]
 
 //const obj = JSON.parse(userprofile);
-//console.log(userprofile);
-
-//console.log('userprofile', userprofile);
+//console.log(userprofile);*/

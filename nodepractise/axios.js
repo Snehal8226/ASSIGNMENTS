@@ -7,7 +7,7 @@ const getTodos =() => {
         //implement
         //GET
          //const url = "https://jsonplaceholder.typicode.com/todos/4";
-         const url = "https://jsonplaceholder.typicode.com/user";
+         const url = "https://jsonplaceholder.typicode.com/users";
          console.log("Making api");
              return axios
              .get(url)
