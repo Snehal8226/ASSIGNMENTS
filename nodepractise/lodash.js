@@ -7,6 +7,9 @@ console.log(str);
 var camalcase = _.camelCase('Foo Bar');
 console.log(camalcase);
 
+
+//Userprofile sort by Age:
+
 var userprofile = _.groupBy([
     userprofile1 = {
        "name":"John", 
@@ -99,6 +102,10 @@ userprofile17 = {
 
 console.log(userprofile);*/
 
+
+
+//Userprofile sort by Name:
+
 /*var userprofile = _.groupBy([
     userprofile1 = {
        "name":"Asha", 
@@ -190,6 +197,9 @@ userprofile17 = {
 ], "name");
 
 console.log(userprofile);*/
+
+
+//Userprofile sort by Address:
 
 
 var userprofile = _.groupBy([
