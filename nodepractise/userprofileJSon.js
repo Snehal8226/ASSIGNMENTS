@@ -1,12 +1,3 @@
-/*var _ = require('lodash');
-
-var str = _.groupBy([6.1, 4.2, 6.3], Math.floor);
-console.log(str);
-
-var camalcase = _.camelCase('Foo Bar');
-console.log(camalcase);*/
-
-
 
 const userprofile =[
      userprofile1 = {
